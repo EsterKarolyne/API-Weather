@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+body {
+  background: url(icons/imgBackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.background {
+  
+  background: linear-gradient(#52a6e713, #499add13, #2c79c121,#51a5e644);
+  background-position: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.37);
+  width: 30%;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+
+.container-weather {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 40px;
+  margin: 50px auto;
+}
+
+.container-localization {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.title-country {
+  font-size: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.subtitle-city {
+  font-size: 40px;
+  letter-spacing: 1px;
+  padding-bottom: 12px;
+}
+
+.current-date {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+/* -------- */
+
+.container-meteorologicalConditions {
+  text-align: center;
+}
+
+.container-degrees-meteorologicalConditions {
+  display: flex;
+  justify-content: center;
+}
+
+.degrees-meteorologicalConditions {
+  font-size: 45px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  font-weight: 800;
+}
+
+.celsius {
+  padding-right: 8px;
+}
+
+.fahrenheit {
+  padding-left: 8px;
+}
+
+.weather-meteorologicalConditions {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+/* ------------ */
+
+.container-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  position: relative;
+  bottom:10px
+}
+
+input {
+  background-color: #ffffff;
+  font-family: sans-serif; ;
+  font-size: 16px;
+  text-align: center;
+}
+
+.search-input {
+  height: 28px;
+  width: 250px;
+  border: none;
+  cursor: pointer;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: none;
+  border-radius: 15px;
+}
+
+.search-button {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* -----responsivo---- */
+
+@media screen and (max-width:1150px) {
+  .background {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width:1015px) {
+  .background {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .background {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:842px) {
+  .background {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width:780px) {
+  .background {
+    width: 48%;
+  }
+}
+
+
+ @media screen and (max-width:718px) {
+  .background {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width:690px) {
+  .background {
+    width: 56%;
+  }
+}
+
+
+@media screen and (max-width:626px) {
+  .background {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:580px) {
+  .background {
+    width: 65%;
+  }
+}
+@media screen and (max-width:530px) {
+  .background {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width:466px) {
+  .background {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width:407px) {
+  .background {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width:363px) {
+  .background {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:342px) {
+  .background {
+    width: 100%;
+  }
+
+  .container-search {
+    
+    width: 250px;
+  }
+
+  .search-input {
+  
+    width: 200px;
+    
+  }
+}
+
+@media screen and (max-width:342px) {
+  
+  .container-search {
+    
+    width: 220px;
+  }
+
+  .search-input {
+  
+    width: 170px;
+    
+  }
+}
+
